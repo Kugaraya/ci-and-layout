@@ -10,7 +10,7 @@ class Main extends MY_Controller {
 		$this->view_data = [
 			"title" => "Success!", //page title
 			"styles" => [
-				"assets/css/icon", //css to load omitting .css file extension
+				//"", //css to load omitting .css file extension
 			],
 			"scripts" => [
 				"assets/js/custom", //js to load omitting .js file extension

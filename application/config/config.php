@@ -35,7 +35,7 @@ $config['base_url'] = 'http://127.0.0.1/ci-and-layout';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------

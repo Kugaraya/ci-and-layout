@@ -7,6 +7,8 @@
         <title><?php echo @$title; ?></title>
         
         <link rel="icon" href="" media="screen,projection"/>
+		<!-- icon.css also includes font-face for text -->
+        <link rel="stylesheet" href="<?php echo base_url("assets/css/icon.css"); ?>" media="screen,projection"/>
         <link rel="stylesheet" href="<?php echo base_url("assets/css/materialize.min.css"); ?>" media="screen,projection"/>
 		<?php
 			if(@$styles) {
