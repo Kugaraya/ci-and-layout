@@ -28,14 +28,14 @@ This repository was originally made for my own personal use for convenience when
 
 - Inside `Main.php` has *docblocks* and *comments* that should be sufficient enough to guide you how to write the controller methods and passing data from controller to views via server variables denoted w/ **@ symbol** ex. `@$var`
 
-- `$this->view_data = ['key' => 'value']`
-- Ex. `$this->view_data['title' => 'Hello World!']`
-- ..and when used in views, simply `<?php echo @$title; ?>`
+`$this->view_data = ['key' => 'value']`
+Ex. `$this->view_data['title' => 'Hello World!']`
+..and when used in views, simply `<?php echo @$title; ?>`
 
 - There is an extended core file under *application/core* named `MY_controller.php`.
-- If you are able to modify this for your needs, feel free to do so
+If you are able to modify this for your needs, feel free to do so
 
 - Headers and Footers are preset under *application/views/layout* in `application.php`
-- The body would be loaded under `$yield` variable
+The body would be loaded under `$yield` variable
 
 - You can freely change the *assets*. This repository uses [Link](https://materializecss.com/ "Materialize") by default. Check them out if you're interested.
