@@ -30,7 +30,9 @@ This repository was originally made for my own personal use for convenience when
 - Inside `Main.php` has *docblocks* and *comments* that should be sufficient enough to guide you how to write the controller methods and passing data from controller to views via server variables denoted w/ **@ symbol** ex. `@$var`
 
 `$this->view_data = ['key' => 'value']`
+
 Ex. `$this->view_data['title' => 'Hello World!']`
+
 ..and when used in views, simply `<?php echo @$title; ?>`
 
 - There is an extended core file under *application/core* named `MY_controller.php`.
