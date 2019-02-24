@@ -36,7 +36,12 @@ Ex. `$this->view_data['title' => 'Hello World!']`
 ..and when used in views, simply `<?php echo @$title; ?>`
 
 - There is an extended core file under *application/core* named `MY_controller.php`.
+
 If you are able to modify this for your needs, feel free to do so
+
+- There is also a preset model file under *application/models* named `MY_model.php`. This already has sufficient queries for you to do CRUD executions on your application and database.
+
+Same as ever, feel free to modify this for your needs.
 
 - Headers and Footers are preset under *application/views/layout* in `application.php`
 The body would be loaded under `$yield` variable
