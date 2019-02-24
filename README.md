@@ -46,4 +46,4 @@ Same as ever, feel free to modify this for your needs.
 - Headers and Footers are preset under *application/views/layout* in `application.php`
 The body would be loaded under `$yield` variable
 
-- You can freely change the *assets*. This repository uses [Link](https://materializecss.com/ "Materialize") by default. Check them out if you're interested.
+- You can freely change the *assets*. This repository uses [Materialize](https://materializecss.com/ "Materialize") by default. Check them out if you're interested.
