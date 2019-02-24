@@ -14,8 +14,8 @@ class MY_model extends CI_Model {
 	 * The model method for retrieving data from database
 	 * @method query()
 	 * @return object[]
-	 * @param string/array 	$table   ex. 'table'
-	 * @param associative/array 		$where  ex. array('id' => $id)
+	 * @param string/array 	$table   ex. 'table', array('table1', 'table2')
+	 * @param associative-array 		$where  ex. array('id' => $id)
 	 * @param string 		$orderby  ex. 'ASC', 'DESC'
 	 * @param int 			$limit   ex. 1
 	 * @param int 			$offset  ex. 1
@@ -38,7 +38,7 @@ class MY_model extends CI_Model {
 	 * @method query()
 	 * @return object[]
 	 * @param string/array 	$table   ex. 'table'
-	 * @param associative/array 		$where  ex. array('id' => $id)
+	 * @param associative-array 		$where  ex. array('id' => $id)
 	 * @param string 		$orderby  ex. 'ASC', 'DESC'
 	 */
 
@@ -63,7 +63,7 @@ class MY_model extends CI_Model {
 	 * @method query()
 	 * @return array[]
 	 * @param string/array 	$table   ex. 'table'
-	 * @param associative/array		$where  ex. array('id' => $id)
+	 * @param associative-array		$where  ex. array('id' => $id)
 	 * @param string 		$orderby  ex. 'ASC', 'DESC'
 	 */
 
@@ -110,7 +110,7 @@ class MY_model extends CI_Model {
 	 * @method insert()
 	 * @return int
 	 * @param mixed $table ex. 'table', array('table1', 'table2')
-	 * @param associative/array $data  ex. associative array with key and value
+	 * @param associative-array $data  ex. associative array with key and value
 	 */
 	
 	function insert($table, $data) {
@@ -123,8 +123,8 @@ class MY_model extends CI_Model {
 	 * @method update()
 	 * @return int
 	 * @param mixed $table ex. 'table', array('table1', 'table2')
-	 * @param associative/array $data  ex. associative array with key and value
-	 * @param associative/array $where 
+	 * @param associative-array $data  ex. associative array with key and value
+	 * @param associative-array $where 
 	 */
     
     function update($table, $data, $where) {
@@ -136,11 +136,11 @@ class MY_model extends CI_Model {
 	/** 
 	 * The model method for deleting information from database
 	 * NOTE: Should be an optional method, as much as possible, utilize flagging rows
-	 * instead of deleting rows of information that are highly likely important
+	 * instead of deleting rows of information that are most likely important
 	 * @method delete()
 	 * @return int
 	 * @param mixed $table ex. 'table', array('table1', 'table2')
-	 * @param associative/array $data  ex. associative array with key and value
+	 * @param associative-array $data  ex. associative array with key and value
 	 */
 
     function delete($table, $where) {
