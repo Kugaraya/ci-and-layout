@@ -18,6 +18,7 @@ This repository was originally made for my own personal use for convenience when
 > Also, I assume you have at least an idea of how to handle MVC structured frameworks and at least a gist about it.  
 
 - Check first the initial configurations of the following files under *application/config* folder to suit your needs:
+
 `autoload.php`
 `config.php`  
 `database.php`  
